@@ -7705,6 +7705,14 @@ body {
 .pt-80 {
   padding-top: 80px !important; }
 
+p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222427;
+  letter-spacing: 0.8px;
+  line-height: 32px;
+  margin-bottom: 20px; }
+
 .section-header {
   font-weight: 300;
   font-size: 36px;
@@ -7795,15 +7803,32 @@ body {
 .jd-footer {
   padding: 120px 0;
   background-color: #105DE0;
-  text-align: center;
-  color: #fff; }
+  text-align: center; }
   .jd-footer h5 {
     font-weight: 400;
     font-size: 24px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #fff; }
   .jd-footer p {
     font-weight: 300;
     font-size: 20px;
-    margin: 0; }
+    margin: 0;
+    color: #fff; }
+
+.about-section {
+  padding: 100px 0; }
+  .about-section h4 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #222427;
+    letter-spacing: 3.5px;
+    margin-bottom: 20px; }
+  .about-section h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222427;
+    letter-spacing: 0.9px; }
+  .about-section p {
+    margin-bottom: 50px; }
 
 /*# sourceMappingURL=main.css.map */
