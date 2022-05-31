@@ -7850,7 +7850,7 @@ p {
 .white {
   color: #fff !important;
 }
-.mt{float: left;margin-top: -20px;padding-top: 20px;}
+.mt {float: none;margin-top: -20px;padding-top: 20px;}
 .bg-blue-ui {
   background-color: #105DE0 !important;
 }
@@ -7889,10 +7889,10 @@ figure img{width:300px;}
 }
 
 .item-box-blog {
-  border: 1px solid #dadada;
   text-align: center;
   z-index: 4;
   padding: 20px;
+  min-height: 450px;
 }
 
 .item-box-blog-image {
@@ -7933,16 +7933,11 @@ figure img{width:300px;}
 }
 
 .item-heading-blog a h5 {
-  /*margin: 0;
-  line-height: 1;
+  margin: 0;
+  line-height: 160%;
   text-decoration:none;
   transition: color 0.3s;
-  max-lines:  3;*/
-  display: -webkit-box;
-  max-width: 200px;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  max-lines:  3;
 }
 
 .item-box-blog-heading a {
@@ -7972,7 +7967,6 @@ figure img{width:300px;}
 .btn.bg-blue-ui.white.read {
   cursor: pointer;
   padding: 4px 20px;
-  float: left;
   margin-top: 10px;
 }
 
