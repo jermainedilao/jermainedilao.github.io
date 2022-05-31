@@ -7935,15 +7935,21 @@ figure img{width:300px;}
 
 .item-heading-blog a h5 {
   margin: 0;
-  line-height: 160%;
   text-decoration:none;
   transition: color 0.3s;
   max-lines:  3;
 }
 
 .item-box-blog-heading a {
-    text-decoration: none;
-    color: #000;
+  line-height: 160%;
+  text-decoration: none;
+  color: #000;
+}
+
+.item-box-blog-heading a h5 {
+  line-height: 160%;
+  text-decoration: none;
+  color: #000;
 }
 
 .item-box-blog-data p {
