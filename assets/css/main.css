@@ -7889,6 +7889,7 @@ figure img{width:300px;}
 }
 
 .item-box-blog {
+  border: none;
   text-align: center;
   z-index: 4;
   padding: 20px;
