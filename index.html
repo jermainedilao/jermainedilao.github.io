@@ -18,6 +18,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
 
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -183,8 +186,180 @@
                         <img src="assets/img/adda-sample.png" alt="" class="img-fluid">
                     </div>
                 </div>
+            </div>   
+        </section>
+
+        <section id="blogs">
+            <div class="row">
+                <div class="col text-center">
+                    <h3 class="pt-80 m-0 section-header">Blogs</h3>
+                </div>
             </div>
-           
+            <div class="container cta-100 ">
+                <div class="container">
+                  <div class="row blog">
+                    <div class="col-md-12">
+                      <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#blogCarousel" data-slide-to="1"></li>
+                          <li data-target="#blogCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row">
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://medium.com/swlh/common-mistake-developers-make-when-building-recyclerviews-and-how-to-fix-it-using-3b642a2ba0f4" tabindex="0" target="_blank">
+                                        <h5>Common Mistake Developers Make When Building RecyclerViews</h5>
+                                      </a>
+                                    </div>
+                                    <div class="mt"> <a href="https://medium.com/swlh/common-mistake-developers-make-when-building-recyclerviews-and-how-to-fix-it-using-3b642a2ba0f4" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://medium.com/swlh/powerful-and-reusable-listadapter-using-databinding-for-simple-lists-55ac377fa750" tabindex="0" target="_blank">
+                                        <h5>Powerful and Reusable ListAdapter Using DataBinding for Simple Lists</h5>
+                                      </a>
+                                    </div>
+                                    <div class="mt"> <a href="https://medium.com/swlh/powerful-and-reusable-listadapter-using-databinding-for-simple-lists-55ac377fa750" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://images.unsplash.com/photo-1584907797015-7554cd315667?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2352&q=80"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://jermainedilao.medium.com/demystifying-diffutil-itemcallback-class-8c0201cc69b1" tabindex="0" target="_blank">
+                                        <h5>Demystifying DiffUtil.ItemCallback Class</h5>
+                                      </a>
+                                    </div>
+                                    <div class="mt"> <a href="https://jermainedilao.medium.com/demystifying-diffutil-itemcallback-class-8c0201cc69b1" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--.row-->
+                          </div>
+                          <!--.item-->
+                          <div class="carousel-item ">
+                            <div class="row">
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://images.unsplash.com/photo-1591382696448-3809bb398c0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2402&q=80"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://medium.com/geekculture/kotlin-null-safe-calls-and-why-you-should-be-cautious-when-using-it-500cc362578a" tabindex="0" target="_blank">
+                                        <h5>Kotlin — Null safe calls and why you should be cautious when using it</h5>
+                                      </a>
+                                    </div>
+                                    <div class="mt"> <a href="https://medium.com/geekculture/kotlin-null-safe-calls-and-why-you-should-be-cautious-when-using-it-500cc362578a" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://miro.medium.com/max/1400/1*T1JauiYac_ScHSnfDp2QjQ.jpeg"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://medium.com/geekculture/jetpack-compose-previewparameter-causes-preview-to-disappear-296cf9423207" tabindex="0" target="_blank">
+                                        <h5>Jetpack Compose: @PreviewParameter causes Preview to disappear!</h5>
+                                      </a>
+                                    </div>
+                                    <div class="mt"> <a href="https://medium.com/geekculture/jetpack-compose-previewparameter-causes-preview-to-disappear-296cf9423207" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://jermainedilao.medium.com/android-paging-3-library-how-to-update-an-item-in-the-list-52f00d9c99b2" tabindex="0" target="_blank">
+                                        <h5>Android Paging 3 Library — How to Update an Item in the List</h5>
+                                      </a>
+                                    </div>
+                                     <div class="mt"> <a href="https://jermainedilao.medium.com/android-paging-3-library-how-to-update-an-item-in-the-list-52f00d9c99b2" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--.row-->
+                          </div>
+                          <!--.item-->
+                          <div class="carousel-item">
+                            <div class="row">
+                              <div class="col-md-4" >
+                                <div class="item-box-blog">
+                                  <div class="item-box-blog-image">
+                                    <!--Image-->
+                                    <figure> <img alt="" src="https://images.unsplash.com/photo-1493661969828-411ef6a6624d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2492&q=80"> </figure>
+                                  </div>
+                                  <div class="item-box-blog-body">
+                                    <!--Heading-->
+                                    <div class="item-box-blog-heading">
+                                      <a href="https://medium.com/geekculture/kotlin-null-safe-calls-and-why-you-should-be-cautious-when-using-it-500cc362578a" tabindex="0" target="_blank">
+                                        <h5>Android RecyclerView Item Margins — “The Right Way”</h5>
+                                      </a>
+                                    </div>
+                                    <div class="mt"> <a href="https://medium.com/geekculture/kotlin-null-safe-calls-and-why-you-should-be-cautious-when-using-it-500cc362578a" tabindex="0" target="_blank" class="btn bg-blue-ui white read">read more</a> </div>
+                                    <!--Read More Button-->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--.row-->
+                          </div>
+                          <!--.item-->
+                        </div>
+                        </div>
+                        <!--.carousel-inner-->
+                      </div>
+                      <!--.Carousel-->
+                    </div>
+                  </div>
+                </div>
+            </div>
         </section>
 
         <section class="jd-footer" id="contact">
